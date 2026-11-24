@@ -43,7 +43,7 @@ cancel out.
 
 ## Install
 
-Build it (ESP-IDF v6.1; the first build fetches the kode SDK):
+Download `kody_vs_hammie.bin` from [Releases](https://github.com/Rein033/kody-vs-hammie/releases/latest), or build it (ESP-IDF v6.1; the first build fetches the kode SDK):
 
 ```bash
 idf.py build
@@ -52,7 +52,7 @@ idf.py build
 Install it over the USB cable with `kcli.py` from a clone of [KodeOS](https://github.com/kodediy/KodeOS):
 
 ```bash
-python path/to/KodeOS/tools/kcli.py -p PORT install build/kody_vs_hammie.bin
+python path/to/KodeOS/tools/kcli.py -p PORT install kody_vs_hammie.bin
 ```
 
 It then shows up in Apps.
